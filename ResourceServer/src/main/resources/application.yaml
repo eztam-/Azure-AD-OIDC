@@ -1,0 +1,7 @@
+azure:
+  activedirectory:
+    b2c:
+      base-uri: https://login.microsoftonline.com/959a0c19-e869-4051-b179-f382059b4ddf/oauth2/v2.0/authorize
+      tenant-id: 959a0c19-e869-4051-b179-f382059b4ddf
+      app-id-uri: http://localhost:8081/B
+      client-id: a94e548c-1154-4b81-b75a-a7ae7e6c424c

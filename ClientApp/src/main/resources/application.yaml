@@ -1,0 +1,12 @@
+azure:
+  activedirectory:
+    b2c:
+      base-uri: https://login.microsoftonline.com/959a0c19-e869-4051-b179-f382059b4ddf/oauth2/v2.0/authorize
+      tenant-id: 959a0c19-e869-4051-b179-f382059b4ddf
+      client-id: a94e548c-1154-4b81-b75a-a7ae7e6c424c
+      client-secret: #${client-secret}
+      authorization-clients:
+        webApiA: #${your-resource-server-a-name}: TODO
+          authorization-grant-type: client_credentials
+          scopes: http://localhost:8081/B/.default
+
